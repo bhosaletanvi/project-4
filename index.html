@@ -1,14 +1,79 @@
 <html>
     <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
         .page1{
-            border: 2px solid red;
+            border: 4px solid red;
             width: 100vw;
-            height: 150vh;
+            height: 100vh;
+            box-sizing: border-box;
+            padding: 2em 5em;
+            border-bottom-left-radius: 15%;
+            border-bottom-right-radius: 15%;
+            background-color: #19c9bd;
+        }
+        .navbar{
+            /* border: 2px solid green; */
+            display: flex;
+            justify-content: space-between;
+            color: white;
+        }
+        .logo{
+            /* border: 2px solid rgb(45, 0, 128); */
+            font-size: 30px;
+        }
+        .navs{
+            /* border: 2px solid rgb(23, 0, 128); */
+            display: flex;
+            gap: 3em;
+            align-items: center;
+
+        }
+        .nav_btn_container{
+            /* border: 2px solid rgb(4, 0, 128); */
+            display: flex;
+            gap: 1em;
+        }
+        .nav-content{
+            display: flex;
+            /* border: 2px solid rebeccapurple; */
+            gap: 6em;
+
+        }
+        .login-btn{
+            padding: 0em 2em;
+            border-radius: 50px;
+            background-color: white;
+            border: none;
+            color: black;
+        }
+        .signup-btn{
+            padding: 0em 2em;
+            border-radius: 50px;
+            background-color: #5bd7cfe2;
+            border: none;
         }
     </style>
     <body>
         <div class="page1">
-
+            <div class="navbar">
+                <div class="logo">TOTC</div>
+                <div class="nav-content">
+                <div class="navs">
+                    <p>Home</p>
+                    <p>Courses</p>
+                    <p>career</p>
+                    <p>Blog</p>
+                    <p>About US</p>
+                </div>
+                <div class="nav_btn_container">
+                    <button class="login-btn">Login</button>
+                    <button class="signup-btn">Sign Up</button>
+                </div>
+                </div>
+            </div>
         </div>
         <div class="page2">
 
