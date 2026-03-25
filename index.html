@@ -116,24 +116,51 @@
         }
         .p2-top-content{
             height: 20%;
-            border: 2px solid red;
-            gap: 6em;
+            /* border: 2px solid red; */
+            gap: 5em;
             display: flex;
         }
         .p2-content-middle-box{
-            height: 90%;
-            width: 80%;
+            height: 70%;
+            width: 70%;
             border : 2px solid green;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 1em;
         }
         .p2-inner{
             display: flex;
             flex-direction: column;
-            border: 2px solid blue;
+            /* border: 2px solid blue; */
             align-items: center;
         }
         .top-tittle{
             font-size: 50px;
             color: rgb(9, 116, 169);
+        }
+        .p2-container{
+            display: flex;
+            gap: 3em;
+            width: 100%;
+            height: 74%;
+            box-sizing: border-box;
+            border: 2px solid rgb(128, 92, 0);
+        }
+        .p2-card{
+            border: 2px solid red;
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            padding: 2em 1em 1em 1em;
+            gap: 2em;
+            box-sizing: border-box;
+            box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.269);
+        }
+        .p2-card-img{
+            padding: 1em 0.1em;
+            background-color: #19c9bd;
+            border-radius:50% ;
         }
     </style>
     <body>
@@ -176,24 +203,45 @@
                     <p>Students</p>
                 </div>
                 <div class="p2-inner">
-                    <h1 class="top-tittle">15k+</h1>
-                    <p>Students</p>
+                    <h1 class="top-tittle">75%</h1>
+                    <p>total success</p>
                 </div>
                 <div class="p2-inner">
-                    <h1 class="top-tittle">15k+</h1>
-                    <p>Students</p>
+                    <h1 class="top-tittle">35</h1>
+                    <p>Main Questions</p>
                 </div>
                 <div class="p2-inner">
-                    <h1 class="top-tittle">15k+</h1>
-                    <p>Students</p>
+                    <h1 class="top-tittle">36</h1>
+                    <p>cheif Expert</p>
                 </div>
                 <div class="p2-inner">
-                    <h1 class="top-tittle">15k+</h1>
-                    <p>Students</p>
+                    <h1 class="top-tittle">16</h1>
+                    <p>Experience</p>
                 </div>
             </div>
             <div class="p2-content-middle-box">
-
+                <div class="all-in-one-title">
+                    <h1>All-In-One Cloud Software.</h1>
+                </div>
+                <p style="padding: 0em 5em;">TOTC is one powerful online software suite that combines all the tools needed to run a successful school or office.
+                </p>
+                <div class="p2-container">
+                    <div class="p2-card">
+                        <div class="p2-card-img">2</div>
+                        <h3>Online Billing, Invoicing, & Contracts</h3>
+                        <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+                    </div>
+                     <div class="p2-card">
+                        <button class="p2-card-img">2</button>
+                        <h3>Online Billing, Invoicing, & Contracts</h3>
+                        <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+                    </div>
+                     <div class="p2-card">
+                        <button class="p2-card-img">2</button>
+                        <h3>Online Billing, Invoicing, & Contracts</h3>
+                        <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="page3">
