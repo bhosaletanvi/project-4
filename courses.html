@@ -73,7 +73,7 @@
         }
         .p1-card-container{
             /* border: 2px solid red; */
-            width: 90%;
+            width: 100%;
             height: 70%;
             /* align-self: center; */
             display: flex;
@@ -110,7 +110,20 @@
             background-color: #49BBBD;
             border-radius: 60px;
         }
-        
+        .p1-title{
+            display: flex;
+            justify-content: space-between;
+        }
+        .next-previour-btn{
+            padding: 1em;
+            background-color: #49BBBD;
+            border: none;
+            border-radius: 5px;
+            
+        }
+        .card-indicator{
+            align-self: flex-end;
+        }
     </style>
     <body>
         <div class="page1">
@@ -133,7 +146,7 @@
             <div class="page1-content">
                 <div class="p1-title">
                 <h2>Welcome back, ready for your next lesson?</h2>
-                <p style="color: #49BBBD;">View History</p>
+                <h4 style="color: #349d9f;">View History</h4>
                 </div>
                 <div class="p1-card-container">
                     <div class="p1-card">
@@ -172,6 +185,10 @@
                                 <p class="lesson-indicator">Lesson 5 of 7</p>
                          </div>
                     </div>
+                </div>
+                <div class="card-indicator">
+                    <button class="next-previour-btn" style="background-color: #49BBBD80;"></button>
+                    <button class="next-previour-btn" ></button>
                 </div>
             </div>
             
