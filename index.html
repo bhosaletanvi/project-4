@@ -105,7 +105,7 @@
         .page2{
             width: 100vw;
             height: 120vh;
-            border: 2px solid brown;
+            /* border: 2px solid brown; */
             display: flex;
             flex-direction: column;
             gap: 8em;
@@ -123,7 +123,7 @@
         .p2-content-middle-box{
             height: 70%;
             width: 70%;
-            border : 2px solid green;
+            /* border : 2px solid green; */
             display: flex;
             align-items: center;
             flex-direction: column;
@@ -145,15 +145,16 @@
             width: 100%;
             height: 74%;
             box-sizing: border-box;
-            border: 2px solid rgb(128, 92, 0);
+            /* border: 2px solid rgb(128, 92, 0); */
         }
         .p2-card{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             width: 33%;
             display: flex;
             flex-direction: column;
             padding: 2em 1em 1em 1em;
             gap: 2em;
+            border-radius: 10px;
             box-sizing: border-box;
             box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.269);
         }
@@ -161,6 +162,39 @@
             padding: 1em 0.1em;
             background-color: #19c9bd;
             border-radius:50% ;
+        }
+        .footer{
+            width: 100vw;
+            height: 50vh;
+            border: 2px solid red;
+            /* background-color: #252641; */
+            display: flex;
+        
+            flex-direction: column;
+            gap: 3em;
+        }
+        .footer-box1{
+            border: 2px solid deeppink;
+            display: flex;
+            gap:2em;
+        }
+        .footer-box2{
+            border: 2px solid darkred;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .footer-box3{
+            border: 2px solid blue;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .footer-option{
+            border: 2px solid green;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
         }
     </style>
     <body>
@@ -220,32 +254,47 @@
                 </div>
             </div>
             <div class="p2-content-middle-box">
-                <div class="all-in-one-title">
-                    <h1>All-In-One Cloud Software.</h1>
+                <div class="all-in-one-title" style="color: gray;">
+                    <h1>All-In-One <span style="color: #19c9bd;">Cloud Software.</span></h1>
                 </div>
                 <p style="padding: 0em 5em;">TOTC is one powerful online software suite that combines all the tools needed to run a successful school or office.
                 </p>
                 <div class="p2-container">
                     <div class="p2-card">
-                        <div class="p2-card-img">2</div>
                         <h3>Online Billing, Invoicing, & Contracts</h3>
                         <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
                     </div>
                      <div class="p2-card">
-                        <button class="p2-card-img">2</button>
                         <h3>Online Billing, Invoicing, & Contracts</h3>
                         <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
                     </div>
                      <div class="p2-card">
-                        <button class="p2-card-img">2</button>
                         <h3>Online Billing, Invoicing, & Contracts</h3>
                         <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="page3">
-
+        <div class="footer">
+            <div class="footer-box1">
+                <div class="logo">TOTC</div>
+                <div>Virtual Class for Zoom</div>
+            </div>
+            <div class="footer-box2">
+                <p>Subscribe to get our Newsletter</p>
+                <div class="mail-box">
+                    <input type="text" placeholder="Your email">
+                    <div class="subscribe-btn">Subscribe</div>
+                </div>
+            </div>
+            <div class="footer-box3">
+                <div class="footer-option">
+                    <p>careers</p>
+                    <p>Privecy policies</p>
+                    <p>Terms & conditions</p>
+                </div>
+                <p>© 2021 Class Technologies Inc.</p>
+            </div>
         </div>
     </body>
 </html>
