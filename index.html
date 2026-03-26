@@ -12,7 +12,7 @@
             padding: 2em 5em;
             border-end-start-radius: 15%;
             border-bottom-right-radius: 15%;
-            background-color: #19c9bd;
+            background-color: #49BBBD;
             display: flex;
             flex-direction: column;
         }
@@ -177,24 +177,52 @@
             border: 2px solid deeppink;
             display: flex;
             gap:2em;
+            align-items: center;
+            justify-content: center;
+            
         }
         .footer-box2{
             border: 2px solid darkred;
             display: flex;
             flex-direction: column;
-            gap: 1em;
+            /* gap: 1em; */
+            align-items: center;
         }
         .footer-box3{
             border: 2px solid blue;
             display: flex;
             flex-direction: column;
             gap: 1em;
+             align-items: center;
         }
         .footer-option{
             border: 2px solid green;
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
             gap: 1em;
+             align-items: center;
+        }
+        .mail-box{
+            border: 2px solid rgb(228, 66, 117);
+            display: flex;
+            /* flex-direction: column; */
+            gap: 1em;
+        }
+        .zoom{
+            border: 2px solid red;
+            width: 10%;
+        }
+        .input-email{
+            padding: 0.5em;
+            border-radius: 40px;
+            border: 1px solid white;
+        }
+        .subscribe-btn{
+            padding: 0.5em;
+            background-color: #49BBBD;
+            color: white;
+            border-radius: 40px;
+             border: 1px solid white;
         }
     </style>
     <body>
@@ -278,13 +306,13 @@
         <div class="footer">
             <div class="footer-box1">
                 <div class="logo">TOTC</div>
-                <div>Virtual Class for Zoom</div>
+                <div class="zoom">Virtual Class for Zoom</div>
             </div>
             <div class="footer-box2">
                 <p>Subscribe to get our Newsletter</p>
                 <div class="mail-box">
-                    <input type="text" placeholder="Your email">
-                    <div class="subscribe-btn">Subscribe</div>
+                    <input class="input-email" type="text" placeholder="Your email">
+                    <button class="subscribe-btn">Subscribe</button>
                 </div>
             </div>
             <div class="footer-box3">
