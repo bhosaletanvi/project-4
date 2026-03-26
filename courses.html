@@ -73,18 +73,32 @@
         }
         .p1-card-container{
             border: 2px solid red;
-            width: 92%;
-            height: 60%;
+            width: 90%;
+            height: 65%;
             align-self: center;
             display: flex;
-            gap: 1.5em;
+            gap: 2em;
         }
         .p1-card{
             border: 2px solid black;
-            width: 32%;
+            width: 31%;
             height: 100%;
             border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
             background-color: white;
+            padding: 0.8em;
+            box-sizing: border-box;
+        }
+        .card-img{
+            height: 60%;
+            border-radius: 10px;
+            
+        }
+        .lesson-indicator{
+            align-self: self-end;
+            font-size: 15px;
         }
     </style>
     <body>
@@ -108,9 +122,36 @@
             <div class="page1-content">
                 <h2>Welcome back, ready for your next lesson?</h2>
                 <div class="p1-card-container">
-                    <div class="p1-card"></div>
-                    <div class="p1-card"></div>
-                    <div class="p1-card"></div>
+                    <div class="p1-card">
+                        <img class="card-img" src="img/card1.png" alt="">
+                        <h4>AWS Certified Solutions Architect</h4>
+                        <div class="profile">
+                            <img class="profile-img" style="width: 2em; height: 2em;" src="img/p1-img.png" alt="">
+                            <p class="name">lina</p>
+                        </div>
+                        <hr>
+                        <p class="lesson-indicator">Lesson 5 of 7</p>
+                    </div>
+                    <div class="p1-card">
+                        <img class="card-img" src="img/card2.jpg" alt="">
+                        <h4>AWS Certified Solutions Architect</h4>
+                        <div class="profile">
+                            <img class="profile-img" style="width: 2em; height: 2em;" src="img/p1-img.png" alt="">
+                            <p class="name">lina</p>
+                            <hr>
+                        <p class="lesson-indicator">Lesson 5 of 7</p>
+                        </div>
+                    </div>
+                    <div class="p1-card">
+                        <img class="card-img" src="img/card3.png" alt="">
+                        <h4>AWS Certified Solutions Architect</h4>
+                        <div class="profile">
+                            <img class="profile-img" style="width: 2em; height: 2em;" src="img/p1-img.png" alt="">
+                            <p class="name">lina</p>
+                        </div>
+                        <hr>
+                        <p class="lesson-indicator">Lesson 5 of 7</p>
+                    </div>
                 </div>
             </div>
             
