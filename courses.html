@@ -8,12 +8,16 @@
             height: 100vh;
             width: 100vw;
             border: 2px solid red;
+            box-sizing: border-box;
+            color: rgb(100, 99, 99);
+            
         }
         .navbar{
             /* border: 2px solid green; */
             display: flex;
+            height: 7%;
             justify-content: space-between;
-            color: white;
+            padding: 1em 4em;
         }
         .logo{
             /* border: 2px solid rgb(45, 0, 128); */
@@ -34,8 +38,26 @@
         .nav-content{
             display: flex;
             /* border: 2px solid rebeccapurple; */
-            gap: 6em;
+            gap: 3em;
+            box-sizing: border-box;
 
+        }
+       .profile{
+        /* border: 2px solid purple; */
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+       }
+       .profile-img{
+        width: 3em;
+        height: 3em;
+        
+        border-radius: 50%;
+        background-color: rgba(203, 203, 203, 0.959);
+       }
+        a{
+            text-decoration: none;
+            color: rgb(100, 99, 99);
         }
     </style>
     <body>
@@ -50,9 +72,9 @@
                     <p>Blog</p>
                     <p>About US</p>
                 </div>
-                <div class="nav_btn_container">
-                    <button class="login-btn">Login</button>
-                    <button class="signup-btn">Sign Up</button>
+                <div class="profile">
+                    <img class="profile-img" src="img/p1-img.png" alt="">
+                    <p class="name">lina</p>
                 </div>
                 </div>
             </div>
