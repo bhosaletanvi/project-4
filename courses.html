@@ -9,13 +9,16 @@
             width: 100vw;
             border: 2px solid red;
             box-sizing: border-box;
-            color: rgb(100, 99, 99);
+            display: flex;
+            flex-direction: column;
+            /* gap: 2em; */
             
         }
         .navbar{
             /* border: 2px solid green; */
             display: flex;
             height: 7%;
+            color: rgb(100, 99, 99);
             justify-content: space-between;
             padding: 1em 4em;
         }
@@ -59,6 +62,30 @@
             text-decoration: none;
             color: rgb(100, 99, 99);
         }
+        .page1-content{
+            padding: 2em 4em;
+            border: 2px solid purple;
+            background-color: #e1effe;
+            display: flex;
+            flex-direction: column;
+            gap: 2em;
+            height: 80%;
+        }
+        .p1-card-container{
+            border: 2px solid red;
+            width: 92%;
+            height: 60%;
+            align-self: center;
+            display: flex;
+            gap: 1.5em;
+        }
+        .p1-card{
+            border: 2px solid black;
+            width: 32%;
+            height: 100%;
+            border-radius: 20px;
+            background-color: white;
+        }
     </style>
     <body>
         <div class="page1">
@@ -78,6 +105,15 @@
                 </div>
                 </div>
             </div>
+            <div class="page1-content">
+                <h2>Welcome back, ready for your next lesson?</h2>
+                <div class="p1-card-container">
+                    <div class="p1-card"></div>
+                    <div class="p1-card"></div>
+                    <div class="p1-card"></div>
+                </div>
+            </div>
+            
         </div>
         <div class="page2">
 
