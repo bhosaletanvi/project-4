@@ -143,13 +143,14 @@
             display: flex;
             gap: 3em;
             width: 100%;
-            height: 74%;
+            /* height: 100%; */
             box-sizing: border-box;
             /* border: 2px solid rgb(128, 92, 0); */
         }
         .p2-card{
             /* border: 2px solid red; */
             width: 33%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             padding: 2em 1em 1em 1em;
@@ -240,10 +241,12 @@
         }
         .p2-card-top{
             width: 20%;
-            height: 30%;
-            border: 2px solid red;
+            /* height: 100%; */
+            padding: 1.4em 0.9em;
+            /* border: 2px solid red; */
             align-self: center;
-            margin-top: -60px;
+            margin-top: -50px;
+            border-radius: 50%;
         }
         .all-in-one-title{
             display: flex;
@@ -256,6 +259,8 @@
             flex-direction: column;
             align-items: center;
             gap: 1em;
+            /* border: 2px solid red; */
+            /* height: 100%; */
         }
     </style>
     <body>
@@ -323,19 +328,25 @@
                 
                 <div class="p2-container">
                     <div class="p2-card">
-                        <div class="p2-card-top"></div>
+                         <div class="p2-card-top" style="background-color: #5B72EE;">icon</div>
                         <div class="p2-card-content">
                         <h3>Online Billing, Invoicing, & Contracts</h3>
                         <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
-                        </div>    
+                         </div> 
                     </div>
                      <div class="p2-card">
+                         <div class="p2-card-top" style="background-color: #00CBB8;">icon</div>
+                        <div class="p2-card-content">
                         <h3>Easy Scheduling & Attendance Tracking</h3>
                         <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+                         </div> 
                     </div>
                      <div class="p2-card">
+                         <div class="p2-card-top" style="background-color: #29B9E7;">icon</div>
+                        <div class="p2-card-content">
                         <h3>Customer Tracking</h3>
                         <p>Simple and secure control of your organization’s financial and legal transactions. Send customized invoices and contracts</p>
+                         </div> 
                     </div>
                 </div>
             </div>
