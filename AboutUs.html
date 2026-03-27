@@ -1,0 +1,93 @@
+<html>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .page1{
+             height: 100vh;
+            width: 100vw;
+            border: 2px solid red;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            /* gap: 2em; */
+        }
+        .navbar{
+            /* border: 2px solid green; */
+            display: flex;
+            height: 7%;
+            color: rgb(100, 99, 99);
+            justify-content: space-between;
+            padding: 1em 4em;
+        }
+        .logo{
+            /* border: 2px solid rgb(45, 0, 128); */
+            font-size: 30px;
+        }
+        .navs{
+            /* border: 2px solid rgb(23, 0, 128); */
+            display: flex;
+            gap: 3em;
+            align-items: center;
+
+        }
+        .nav_btn_container{
+            /* border: 2px solid rgb(4, 0, 128); */
+            display: flex;
+            gap: 1em;
+        }
+        .nav-content{
+            display: flex;
+            /* border: 2px solid rebeccapurple; */
+            gap: 3em;
+            box-sizing: border-box;
+
+        }
+       .profile{
+        /* border: 2px solid purple; */
+        display: flex;
+        gap: 0.5em;
+        align-items: center;
+       }
+       .profile-img{
+        width: 3em;
+        height: 3em;
+        
+        border-radius: 50%;
+        background-color: rgba(203, 203, 203, 0.959);
+       }
+        a{
+            text-decoration: none;
+            color: rgb(100, 99, 99);
+        }
+        .p1-img{
+            width: 100%;
+            height: 60%;
+            object-fit:contain ;
+        }
+    </style>
+    <body>
+        <div class="page1">
+            <div class="navbar">
+                <div class="logo">TOTC</div>
+                <div class="nav-content">
+                <div class="navs">
+                    <p>Home</p>
+                    <p><a href="courses.html">Courses</a></p>
+                    <p>Career</p>
+                    <p>Blog</p>
+                    <p>About US</p>
+                </div>
+                <div class="profile">
+                    <img class="profile-img" src="img/p1-img.png" alt="">
+                    <p class="name">lina</p>
+                </div>
+                </div>
+            </div>
+            <div>
+                <img class="p1-img" src="img/aboutus.jpg" alt="">
+            </div>
+        </div>
+    </body>
+</html>
