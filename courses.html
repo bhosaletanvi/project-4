@@ -195,6 +195,78 @@
             border: none;
             background-color: #49BBBD;
         }
+
+        .footer{
+            width: 100vw;
+            height: 54vh;
+            /* border: 2px solid red; */
+            background-color: #252641;
+            display: flex;
+            box-sizing: border-box;
+            flex-direction: column;
+            gap: 3em;
+            padding: 3em 3em 2em 3em;
+            color: rgb(199, 197, 197);
+            align-items: center;
+        }
+        .footer-box1{
+            /* border: 2px solid deeppink; */
+            display: flex;
+            gap:3em;
+            width: 20%;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .footer-box2{
+            /* border: 2px solid darkred; */
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            width: 30%;
+            align-items: center;
+        }
+        .footer-box3{
+            /* border: 2px solid blue; */
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            width: 40%;
+             align-items: center;
+        }
+        .footer-option{
+            /* border: 2px solid green; */
+            display: flex;
+            /* flex-direction: column; */
+            gap: 1em;
+             align-items: center;
+        }
+        .mail-box{
+            /* border: 2px solid rgb(228, 66, 117); */
+            display: flex;
+            /* flex-direction: column; */
+            gap: 1em;
+        }
+        .zoom{
+            /* border: 2px solid red; */
+            width: 40%;
+            border-left:1px solid white ;
+            padding-left: 1em;
+        }
+        .input-email{
+            padding: 0.7em 1.7em;
+            border-radius: 40px;
+            background-color: #252641;
+            border: 1px solid rgb(192, 186, 186);
+        }
+        .subscribe-btn{
+            padding: 0.7em 1.7em;
+            background-color: #49BBBD;
+            color: white;
+            border-radius: 40px;
+            border: 1px solid #49BBBD;
+        }
     </style>
     <body>
         <div class="page1">
@@ -317,8 +389,26 @@
                 <button class="start-learning-btn">Start learning now</button>
             </div>
         </div>
-        <div class="footer">
-
+         <div class="footer">
+            <div class="footer-box1">
+                <div class="logo">TOTC</div>
+                <div class="zoom">Virtual Class for Zoom</div>
+            </div>
+            <div class="footer-box2">
+                <p>Subscribe to get our Newsletter</p>
+                <div class="mail-box">
+                    <input class="input-email" type="text" placeholder="Your email">
+                    <button class="subscribe-btn">Subscribe</button>
+                </div>
+            </div>
+            <div class="footer-box3">
+                <div class="footer-option">
+                    <p>careers</p>
+                    <p style="border-left: 1px solid white;  padding-left:1em ;">Privecy policies</p>
+                    <p  style="border-left: 1px solid white; padding-left:1em ;">Terms & conditions</p>
+                </div>
+                <p>© 2021 Class Technologies Inc.</p>
+            </div>
         </div>
     </body>
 </html>
